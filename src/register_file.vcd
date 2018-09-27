@@ -1,0 +1,104 @@
+$date
+	Sat Jan 28 15:29:11 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_tb $end
+$var reg 1 ! elk $end
+$upscope $end
+$scope module register_tb $end
+$var reg 1 " nrst $end
+$upscope $end
+$scope module register_tb $end
+$var reg 5 # rd_addrA [4:0] $end
+$upscope $end
+$scope module register_tb $end
+$var reg 5 $ rd_addrB [4:0] $end
+$upscope $end
+$scope module register_tb $end
+$var reg 5 % wr_addr [4:0] $end
+$upscope $end
+$scope module register_tb $end
+$var reg 1 & wr_en $end
+$upscope $end
+$scope module register_tb $end
+$var reg 32 ' wr_data [31:0] $end
+$upscope $end
+$scope module register_tb $end
+$var wire 32 ( rd_dataA [31:0] $end
+$upscope $end
+$scope module register_tb $end
+$var wire 32 ) rd_dataB [31:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 )
+b0 (
+bx '
+x&
+bx %
+bx $
+bx #
+x"
+1!
+$end
+#5
+0!
+#10
+1!
+#15
+0!
+#20
+1!
+b10001000100010001000100010001 '
+b1000 %
+1&
+#21
+b1000 #
+#22
+b10001000100010001000100010001 (
+#25
+0!
+#30
+1!
+#35
+0!
+#40
+1!
+#45
+0!
+#46
+b100010001000100010001000100010 '
+b1001 %
+#47
+b1001 $
+#50
+1!
+#55
+0!
+#57
+0"
+#60
+1!
+#62
+b1001 #
+#63
+b100010001000100010001000100010 (
+#65
+0!
+#70
+1!
+#75
+0!
+#80
+1!
+#85
+0!
+#90
+1!
+#92
